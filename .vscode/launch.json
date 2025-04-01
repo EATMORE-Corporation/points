@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Run points.main (from parent dir)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "points.main",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/.." // ★重要: カレントディレクトリを親フォルダに設定★
+        }
+    ]
+}
