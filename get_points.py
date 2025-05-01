@@ -1,4 +1,3 @@
-# your_project_root/points/template.py
 import sys
 import os
 import pandas as pd
